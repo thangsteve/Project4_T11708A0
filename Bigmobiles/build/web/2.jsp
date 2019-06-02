@@ -130,7 +130,7 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="AdminShowFeedback">
+                            <a class="nav-link" href="AdminFeedbackServlet">
                                 <i class="menu-icon typcn typcn-bell"></i>
                                 <span class="menu-title">Phản hồi của khách hàng</span>
                             </a>

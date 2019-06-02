@@ -216,6 +216,18 @@
         <servlet-name>ChartCustomerServlet</servlet-name>
         <servlet-class>controller.ChartCustomerServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>AdminReplyServlet</servlet-name>
+        <servlet-class>controller.AdminReplyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminFeedbackServlet</servlet-name>
+        <servlet-class>controller.AdminFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getEmailCusServlet</servlet-name>
+        <servlet-class>controller.getEmailCusServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>loginadmin</servlet-name>
         <url-pattern>/loginadmin</url-pattern>
@@ -434,6 +446,18 @@
     <servlet-mapping>
         <servlet-name>ChartCustomerServlet</servlet-name>
         <url-pattern>/ChartCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminReplyServlet</servlet-name>
+        <url-pattern>/AdminReplyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminFeedbackServlet</servlet-name>
+        <url-pattern>/AdminFeedbackServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getEmailCusServlet</servlet-name>
+        <url-pattern>/getEmailCusServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
