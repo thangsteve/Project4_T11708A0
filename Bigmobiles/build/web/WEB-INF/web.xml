@@ -216,6 +216,18 @@
         <servlet-name>ChartCustomerServlet</servlet-name>
         <servlet-class>controller.ChartCustomerServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ForgetPasswordServlet</servlet-name>
+        <servlet-class>controller.ForgetPasswordServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getLinkresetPasswordServlet</servlet-name>
+        <servlet-class>controller.getLinkresetPasswordServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>resetPasswordServlet</servlet-name>
+        <servlet-class>controller.resetPasswordServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>loginadmin</servlet-name>
         <url-pattern>/loginadmin</url-pattern>
@@ -434,6 +446,18 @@
     <servlet-mapping>
         <servlet-name>ChartCustomerServlet</servlet-name>
         <url-pattern>/ChartCustomerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ForgetPasswordServlet</servlet-name>
+        <url-pattern>/ForgetPasswordServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getLinkresetPasswordServlet</servlet-name>
+        <url-pattern>/getLinkresetPasswordServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>resetPasswordServlet</servlet-name>
+        <url-pattern>/resetPasswordServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

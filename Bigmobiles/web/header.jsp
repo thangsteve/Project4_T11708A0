@@ -50,7 +50,7 @@
                                 <a href="logreg.jsp">Sign in|| Sign up</a>
                             </li>
                             <%  } else {%> 
-                        <li><a href="#"><%=custom.getFullName()%></a></li>
+                        <li><a href="#">Welcome <%=custom.getFullName()%></a></li>
                             <li><a href="logoutServlet">Logout</a></li>
                                 <%       }%>
                         </ul>

@@ -30,6 +30,7 @@
                 session.setAttribute("cart", cart);
             }
         %>
+        <br>
         <div class="breadcrumb-area">
             <div class="container">
                 <div class="breadcrumb-content">

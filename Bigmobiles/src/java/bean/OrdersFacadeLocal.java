@@ -6,6 +6,7 @@
 
 package bean;
 
+import java.util.Date;
 import java.util.List;
 import javax.ejb.Local;
 import model.Orders;
@@ -30,5 +31,7 @@ public interface OrdersFacadeLocal {
     List<Orders> findRange(int[] range);
 
     int count();
+
+    public List<Orders> CustomerReport(String cusid, Date Startdate, Date Enddate);
     
 }

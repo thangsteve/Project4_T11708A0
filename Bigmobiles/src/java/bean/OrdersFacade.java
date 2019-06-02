@@ -6,9 +6,13 @@
 
 package bean;
 
+import model.OrderListThisMonth;
+import java.util.Date;
+import java.util.List;
 import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import javax.persistence.Query;
 import model.Orders;
 
 /**
@@ -28,5 +32,13 @@ public class OrdersFacade extends AbstractFacade<Orders> implements OrdersFacade
     public OrdersFacade() {
         super(Orders.class);
     }
+
+    @Override
+    public List<Orders> CustomerReport(String cusid, Date Startdate, Date Enddate) {
+         Query q=em.createQuery("SELECT o FROM Orders o WHERE o.customerID.customerID = :cus and o.orderDate >= :startDate and o.orderDate <= :endDate");
+        q.setParameter("cus", cusid);
+        q.setParameter("startDate", Startdate);
+        q.setParameter("endDate", Enddate);
+        return q.getResultList(); }
     
 }

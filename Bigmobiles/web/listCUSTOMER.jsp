@@ -47,7 +47,7 @@
                                         <button type="button" class="btn btn-outline-warning">disable</button>
                                     </c:otherwise>
                                 </c:choose></td>
-                            <td> <button  class="btn btn-outline-info">Sửa</button></td>
+                            <td> <button  class=" btn-outline-info">Sửa</button></td>
                         </tr>
                     </c:forEach>
                 </tbody>
