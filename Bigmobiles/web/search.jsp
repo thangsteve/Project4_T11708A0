@@ -34,7 +34,7 @@
                     <div class="breadcrumb-content">
                         <ul>
                             <li><a href="ProductServlet">Home</a></li>
-                            <li class="active">Shop Left Sidebar</li>
+                            <li class="active">search</li>
                         </ul>
                     </div>
                 </div>

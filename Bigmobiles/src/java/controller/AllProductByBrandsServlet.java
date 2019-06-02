@@ -52,6 +52,10 @@ public class AllProductByBrandsServlet extends HttpServlet {
              List<Products> listProHot = productsFacade.AllProductHot();
             List<Products> listProduct= productsFacade.AllProduct();
             
+            request.setAttribute("currfrom", 10);
+            request.setAttribute("currto", 300);
+            request.setAttribute("maxPr", productsFacade.getMaxPrice());
+            
             request.setAttribute("listProduct", listProduct);
             request.setAttribute("catelist",listCategory);
             request.setAttribute("brandList",listBrand);

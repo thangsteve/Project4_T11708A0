@@ -97,7 +97,7 @@
                             <div class="card">
                                 <div class="card-body">
 
-                                    <form class="form-sample" action="AdminReplyServlet" method="post" id="regform" enctype="multipart/form-data" >
+                                    <form class="form-sample" action="AdminReplyServlet" method="post" >
                                         <p style="color: red" class="m-b-20">${mess}</p>
                                         <p class="card-description"> </p>
                                         <div class="row">
@@ -113,7 +113,7 @@
                                                 <div class="form-group row">
                                                     <label class="col-sm-3 col-form-label">Subject</label>
                                                     <div class="col-sm-9">
-                                                        <input type="text" value="Feedback From BigMobile" name="subject" class="form-control" />
+                                                        <input type="text"  value="Feedback From BigMobile" name="subject" class="form-control" required/>
                                                     </div>
                                                 </div>
                                             </div>
