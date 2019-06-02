@@ -217,6 +217,7 @@
         <servlet-class>controller.ChartCustomerServlet</servlet-class>
     </servlet>
     <servlet>
+<<<<<<< HEAD
         <servlet-name>ForgetPasswordServlet</servlet-name>
         <servlet-class>controller.ForgetPasswordServlet</servlet-class>
     </servlet>
@@ -227,6 +228,18 @@
     <servlet>
         <servlet-name>resetPasswordServlet</servlet-name>
         <servlet-class>controller.resetPasswordServlet</servlet-class>
+=======
+        <servlet-name>AdminReplyServlet</servlet-name>
+        <servlet-class>controller.AdminReplyServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AdminFeedbackServlet</servlet-name>
+        <servlet-class>controller.AdminFeedbackServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getEmailCusServlet</servlet-name>
+        <servlet-class>controller.getEmailCusServlet</servlet-class>
+>>>>>>> master
     </servlet>
     <servlet-mapping>
         <servlet-name>loginadmin</servlet-name>
@@ -448,6 +461,7 @@
         <url-pattern>/ChartCustomerServlet</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+
         <servlet-name>ForgetPasswordServlet</servlet-name>
         <url-pattern>/ForgetPasswordServlet</url-pattern>
     </servlet-mapping>
@@ -458,6 +472,17 @@
     <servlet-mapping>
         <servlet-name>resetPasswordServlet</servlet-name>
         <url-pattern>/resetPasswordServlet</url-pattern>
+        <servlet-name>AdminReplyServlet</servlet-name>
+        <url-pattern>/AdminReplyServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AdminFeedbackServlet</servlet-name>
+        <url-pattern>/AdminFeedbackServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getEmailCusServlet</servlet-name>
+        <url-pattern>/getEmailCusServlet</url-pattern>
+
     </servlet-mapping>
     <session-config>
         <session-timeout>
